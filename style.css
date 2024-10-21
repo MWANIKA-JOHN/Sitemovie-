@@ -1,0 +1,198 @@
+*{
+    text-decoration: none;
+    margin:
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    color: white;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    backdrop-filter: blur;
+    margin-bottom: 20px;
+}
+.imageb{
+    width: 100%;
+    background: rgb(184, 184, 70);
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:250px ;
+    background: orange;
+    
+    gap: 6px;
+}
+.img1{
+    
+    height: 100%;
+    width: 50%;
+}
+.img2{
+    height: 100%;
+    width: 50%;
+}
+.img3{
+    width: 50%;
+    height: 100%;
+
+}
+.img4{
+    width: 50%;
+    height: 100%;
+}
+
+
+.logo{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image1{
+    display:flex;
+    flex-direction: column;
+}
+.image1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+span{
+    color: orangered;
+}
+li {
+list-style: none;
+display: inline-block;
+margin-right: 10px;
+}
+.img3 img{
+    height: 93%;
+
+}
+.img3 span{
+    height: 7%;
+
+}
+li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+li a:hover{
+    color: orange;
+    border-bottom: 5px solid orange;
+}
+.logo:hover{
+    color: orange;
+}
+.neo{
+    display: flex;
+    margin: 0;
+    
+}
+.john{
+    margin-top: 20px;
+    height: 150px;
+    margin: 0%;
+}
+button{
+    border-radius: 10px;
+    background-color:rgb(71, 37, 37);
+    color: aquas;
+}
+.imgb{
+    width: 100%;
+    background-color: brown;
+    height: 400px;
+}
+.imgb img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 400px;
+    background-color: yeow;
+    margin-bottom: 10px;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+    justify-content: center;
+}
+.im{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    
+    
+}
+.im img{
+    height: 100%;
+    width: 50%;
+
+   
+    
+}
+.spaner{
+    border: 5px solid white;
+    border-radius: 45%;
+    color: red;
+    background-color: white;
+}
+body{
+    background-color: lightslategray;
+    
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+}
+.footer1{
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+
+    display: flex;
+    
+    
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    
+}
+.gu{
+    display: flex;
+    flex-direction: column;
+}
+.gu li a{
+    font-size: 15px;
+}
+.gu.social{
+    display: flex;
+}
+.news{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
